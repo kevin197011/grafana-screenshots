@@ -51,14 +51,14 @@ curl --max-time 600 http://127.0.0.1:8111/trigger
 
 ## 定时配置
 
-在 `grafana.env` 中设置（按 `TZ` 时区，默认 `Asia/Shanghai`）：
+在 `grafana.env` 中设置（按 `TZ` 时区，默认 `Asia/Hong_Kong`）：
 
 | 变量 | 说明 | 默认 |
 |------|------|------|
 | `SCHEDULE_HOUR` | 小时 0–23 | `17` |
 | `SCHEDULE_MINUTE` | 分钟 0–59 | `0` |
 | `SCHEDULE_SECOND` | 秒 0–59 | `0` |
-| `TZ` | 时区 | `Asia/Shanghai` |
+| `TZ` | 时区 | `Asia/Hong_Kong` |
 | `RUN_ON_START` | 启动时立即执行一次 | `false` |
 
 示例：每天 **17:30:15** 执行：

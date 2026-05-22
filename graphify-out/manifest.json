@@ -1,0 +1,47 @@
+{
+  "/Users/kevin/projects/test/grafana-screenshot/deploy.sh": {
+    "mtime": 1779437399.024364,
+    "ast_hash": "c4c3cdd2df87e4f8e84fee6359c1d677",
+    "semantic_hash": ""
+  },
+  "/Users/kevin/projects/test/grafana-screenshot/cmd/grafana-screenshot/main.go": {
+    "mtime": 1779436552.0337298,
+    "ast_hash": "ef5afdd15f2d49ef776eca551f46fcc6",
+    "semantic_hash": ""
+  },
+  "/Users/kevin/projects/test/grafana-screenshot/docker/entrypoint.sh": {
+    "mtime": 1779435789.2660542,
+    "ast_hash": "2fcda1fa95db4a47f955365f550d8ea7",
+    "semantic_hash": ""
+  },
+  "/Users/kevin/projects/test/grafana-screenshot/.vscode/settings.json": {
+    "mtime": 1779437146.50738,
+    "ast_hash": "3c4d61f9c7f61b592edddf2e3aa22534",
+    "semantic_hash": ""
+  },
+  "/Users/kevin/projects/test/grafana-screenshot/.vscode/launch.json": {
+    "mtime": 1779437146.5073225,
+    "ast_hash": "c821b7de1b46152a73c8aa0608576dc0",
+    "semantic_hash": ""
+  },
+  "/Users/kevin/projects/test/grafana-screenshot/README.md": {
+    "mtime": 1779442859.9244833,
+    "ast_hash": "3276376bfdd611d774a6a0fe4afca6e5",
+    "semantic_hash": ""
+  },
+  "/Users/kevin/projects/test/grafana-screenshot/docker-compose.yml": {
+    "mtime": 1779442854.4789217,
+    "ast_hash": "564c9807b368eba12cc2cc95a33c4d02",
+    "semantic_hash": ""
+  },
+  "/Users/kevin/projects/test/grafana-screenshot/.github/workflows/docker.yml": {
+    "mtime": 1779434980.2399883,
+    "ast_hash": "43deb8a9f41d5bf51400d8e8c4b62511",
+    "semantic_hash": ""
+  },
+  "/Users/kevin/projects/test/grafana-screenshot/data/screenshots/grafana-20260522-170000.png": {
+    "mtime": 1779440414.8916728,
+    "ast_hash": "b8d7108bfdd5f0f0c901274915aa5cef",
+    "semantic_hash": ""
+  }
+}

@@ -11,7 +11,12 @@ services:
     environment:
       SCREENSHOT_DIR: /data/screenshots
       LISTEN_ADDR: ":8111"
+      # shell date / 系统库读时区；与 grafana.env 中 TZ 保持一致
+      TZ: Asia/Hong_Kong
     volumes:
       - ./data/screenshots:/data/screenshots
       # 使用 grafana.env（勿用 .env），避免 Compose 解析 URL 中的 $__all 等变量
       - ./grafana.env:/app/.env:ro
+      # Alpine 无 tzdata 时 date 只显示 UTC；挂载宿主机时区文件后按 TZ 显示本地时间
+      - /etc/localtime:/etc/localtime:ro
+      - /usr/share/zoneinfo:/usr/share/zoneinfo:ro
