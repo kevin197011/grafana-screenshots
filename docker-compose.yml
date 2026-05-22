@@ -1,0 +1,17 @@
+services:
+  grafana-screenshot:
+    image: ghcr.io/kevin197011/grafana-screenshots:latest
+    container_name: grafana-screenshot
+    user: "0:0"
+    entrypoint: ["/app/grafana-screenshot"]
+    command: ["server"]
+    restart: unless-stopped
+    ports:
+      - "8111:8111"
+    environment:
+      SCREENSHOT_DIR: /data/screenshots
+      LISTEN_ADDR: ":8111"
+    volumes:
+      - ./data/screenshots:/data/screenshots
+      # 使用 grafana.env（勿用 .env），避免 Compose 解析 URL 中的 $__all 等变量
+      - ./grafana.env:/app/.env:ro

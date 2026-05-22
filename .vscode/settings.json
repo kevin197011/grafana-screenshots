@@ -1,0 +1,6 @@
+{
+  "go.toolsManagement.checkForUpdates": "local",
+  "gopls": {
+    "build.directoryFilters": ["-graphify-out", "-data"]
+  }
+}

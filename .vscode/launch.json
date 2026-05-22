@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "grafana-screenshot (server)",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/cmd/grafana-screenshot",
+      "cwd": "${workspaceFolder}",
+      "args": ["server"],
+      "envFile": "${workspaceFolder}/grafana.env"
+    }
+  ]
+}

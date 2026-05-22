@@ -1,0 +1,9 @@
+.git
+graphify-out
+data
+*.png
+grafana.env
+.env
+.env.*
+t.txt
+README.md
