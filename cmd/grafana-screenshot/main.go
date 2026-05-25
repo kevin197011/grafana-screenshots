@@ -20,6 +20,7 @@ import (
 	_ "time/tzdata" // 嵌入时区库，运行镜像无需安装 tzdata
 
 	"github.com/joho/godotenv"
+	"github.com/robfig/cron/v3"
 )
 
 const (
@@ -187,23 +188,38 @@ func unquoteEnvValue(s string) (string, bool) {
 	}
 }
 
+// runScheduler 用 robfig/cron 跑稳定的定时任务。
+//
+// 旧实现用 time.Sleep(wait) 在容器/虚机被挂起或系统时钟跳变时会丢任务；cron 库
+// 内部按绝对时间和 timer 重新计算，并提供 SkipIfStillRunning + Recover 包装。
 func runScheduler() {
 	loadEnv()
 
-	loc := time.Local
-	if tz := strings.TrimSpace(os.Getenv("TZ")); tz != "" {
-		if l, err := time.LoadLocation(tz); err == nil {
-			loc = l
-		} else {
-			fmt.Fprintf(os.Stderr, "警告: 无效 TZ=%q，使用系统时区: %v\n", tz, err)
+	loc := schedulerLocation()
+	spec := scheduleSpec()
+
+	logger := cron.PrintfLogger(stdLogger())
+	c := cron.New(
+		cron.WithLocation(loc),
+		cron.WithSeconds(),
+		cron.WithLogger(logger),
+		cron.WithChain(
+			cron.Recover(logger),
+			cron.SkipIfStillRunning(logger),
+		),
+	)
+
+	id, err := c.AddFunc(spec, func() {
+		fmt.Printf("[cron] 触发: %s\n", time.Now().In(loc).Format("2006-01-02 15:04:05"))
+		if err := runOnce(false); err != nil {
+			fmt.Fprintf(os.Stderr, "[cron] 任务失败: %v\n", err)
 		}
+	})
+	if err != nil {
+		fatal(fmt.Errorf("无效的 SCHEDULE_CRON=%q: %w", spec, err))
 	}
 
-	hour := envInt("SCHEDULE_HOUR", 17)
-	minute := envInt("SCHEDULE_MINUTE", 0)
-	second := envInt("SCHEDULE_SECOND", 0)
-
-	fmt.Printf("定时任务: 每天 %02d:%02d:%02d (%s)\n", hour, minute, second, loc.String())
+	fmt.Printf("定时任务: %s (%s)\n", spec, loc.String())
 
 	if envBool("RUN_ON_START", false) {
 		fmt.Println("启动时立即执行一次...")
@@ -212,20 +228,36 @@ func runScheduler() {
 		}
 	}
 
-	for {
-		now := time.Now().In(loc)
-		next := time.Date(now.Year(), now.Month(), now.Day(), hour, minute, second, 0, loc)
-		if !next.After(now) {
-			next = next.Add(24 * time.Hour)
-		}
-		wait := time.Until(next)
-		fmt.Printf("下次执行: %s（%s 后）\n", next.Format("2006-01-02 15:04:05"), wait.Round(time.Second))
-		time.Sleep(wait)
-		if err := runOnce(false); err != nil {
-			fmt.Fprintf(os.Stderr, "任务失败: %v\n", err)
-		}
-		time.Sleep(time.Second)
+	c.Start()
+	if e := c.Entry(id); e.ID == id {
+		fmt.Printf("下次执行: %s\n", e.Next.In(loc).Format("2006-01-02 15:04:05 MST"))
 	}
+
+	// runScheduler 在 server 模式由 goroutine 调起，cron 自带的 ticker 会阻塞
+	// 自己的协程；外层 server 通过 ListenAndServe 阻塞。这里直接 select{} 防止
+	// 单独 scheduler 模式时 main 退出。
+	select {}
+}
+
+// scheduleSpec 返回 cron 表达式。优先 SCHEDULE_CRON；否则由
+// SCHEDULE_HOUR/MINUTE/SECOND 推导成每日触发。
+func scheduleSpec() string {
+	if s := envRaw("SCHEDULE_CRON"); s != "" {
+		return s
+	}
+	h := envInt("SCHEDULE_HOUR", 17)
+	m := envInt("SCHEDULE_MINUTE", 0)
+	s := envInt("SCHEDULE_SECOND", 0)
+	return fmt.Sprintf("%d %d %d * * *", s, m, h)
+}
+
+// stdLogger 转发 cron 日志到 stdout，让容器日志一行不漏。
+func stdLogger() cronStdlibLogger { return cronStdlibLogger{} }
+
+type cronStdlibLogger struct{}
+
+func (cronStdlibLogger) Printf(format string, args ...any) {
+	fmt.Printf("[cron] "+format+"\n", args...)
 }
 
 func runOnce(dryRun bool) error {

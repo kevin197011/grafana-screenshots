@@ -25,7 +25,7 @@
       "label": "main()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L34",
+      "source_location": "L35",
       "id": "grafana_screenshot_main_main",
       "community": 1,
       "norm_label": "main()"
@@ -34,7 +34,7 @@
       "label": "runServer()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L57",
+      "source_location": "L58",
       "id": "grafana_screenshot_main_runserver",
       "community": 1,
       "norm_label": "runserver()"
@@ -43,7 +43,7 @@
       "label": "handleTrigger()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L90",
+      "source_location": "L91",
       "id": "grafana_screenshot_main_handletrigger",
       "community": 1,
       "norm_label": "handletrigger()"
@@ -52,7 +52,7 @@
       "label": "runOnceFromFlags()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L127",
+      "source_location": "L128",
       "id": "grafana_screenshot_main_runoncefromflags",
       "community": 1,
       "norm_label": "runoncefromflags()"
@@ -61,7 +61,7 @@
       "label": "loadEnv()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L133",
+      "source_location": "L134",
       "id": "grafana_screenshot_main_loadenv",
       "community": 1,
       "norm_label": "loadenv()"
@@ -70,34 +70,70 @@
       "label": "restoreGrafanaURLFromFile()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L144",
+      "source_location": "L145",
       "id": "grafana_screenshot_main_restoregrafanaurlfromfile",
-      "community": 1,
+      "community": 3,
       "norm_label": "restoregrafanaurlfromfile()"
     },
     {
       "label": "unquoteEnvValue()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L170",
+      "source_location": "L171",
       "id": "grafana_screenshot_main_unquoteenvvalue",
-      "community": 1,
+      "community": 3,
       "norm_label": "unquoteenvvalue()"
     },
     {
       "label": "runScheduler()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L190",
+      "source_location": "L195",
       "id": "grafana_screenshot_main_runscheduler",
       "community": 1,
       "norm_label": "runscheduler()"
     },
     {
+      "label": "scheduleSpec()",
+      "file_type": "code",
+      "source_file": "cmd/grafana-screenshot/main.go",
+      "source_location": "L244",
+      "id": "grafana_screenshot_main_schedulespec",
+      "community": 3,
+      "norm_label": "schedulespec()"
+    },
+    {
+      "label": "stdLogger()",
+      "file_type": "code",
+      "source_file": "cmd/grafana-screenshot/main.go",
+      "source_location": "L255",
+      "id": "grafana_screenshot_main_stdlogger",
+      "community": 1,
+      "norm_label": "stdlogger()"
+    },
+    {
+      "label": "cronStdlibLogger",
+      "file_type": "code",
+      "source_file": "cmd/grafana-screenshot/main.go",
+      "source_location": "L257",
+      "id": "grafana_screenshot_cronstdliblogger",
+      "community": 1,
+      "norm_label": "cronstdliblogger"
+    },
+    {
+      "label": ".Printf()",
+      "file_type": "code",
+      "source_file": "cmd/grafana-screenshot/main.go",
+      "source_location": "L259",
+      "id": "grafana_screenshot_cronstdliblogger_printf",
+      "community": 1,
+      "norm_label": ".printf()"
+    },
+    {
       "label": "runOnce()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L231",
+      "source_location": "L263",
       "id": "grafana_screenshot_main_runonce",
       "community": 1,
       "norm_label": "runonce()"
@@ -106,7 +142,7 @@
       "label": "fatal()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L277",
+      "source_location": "L309",
       "id": "grafana_screenshot_main_fatal",
       "community": 1,
       "norm_label": "fatal()"
@@ -115,16 +151,16 @@
       "label": "envOr()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L282",
+      "source_location": "L314",
       "id": "grafana_screenshot_main_envor",
-      "community": 3,
+      "community": 1,
       "norm_label": "envor()"
     },
     {
       "label": "envBool()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L289",
+      "source_location": "L321",
       "id": "grafana_screenshot_main_envbool",
       "community": 1,
       "norm_label": "envbool()"
@@ -133,70 +169,70 @@
       "label": "envInt()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L297",
+      "source_location": "L329",
       "id": "grafana_screenshot_main_envint",
-      "community": 7,
+      "community": 3,
       "norm_label": "envint()"
     },
     {
       "label": "envRaw()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L309",
+      "source_location": "L341",
       "id": "grafana_screenshot_main_envraw",
-      "community": 4,
+      "community": 3,
       "norm_label": "envraw()"
     },
     {
       "label": "envIntAlias()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L314",
+      "source_location": "L346",
       "id": "grafana_screenshot_main_envintalias",
-      "community": 7,
+      "community": 3,
       "norm_label": "envintalias()"
     },
     {
       "label": "renderHeight()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L333",
+      "source_location": "L365",
       "id": "grafana_screenshot_main_renderheight",
-      "community": 4,
+      "community": 3,
       "norm_label": "renderheight()"
     },
     {
       "label": "renderWidth()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L349",
+      "source_location": "L381",
       "id": "grafana_screenshot_main_renderwidth",
-      "community": 4,
+      "community": 3,
       "norm_label": "renderwidth()"
     },
     {
       "label": "renderTimeoutSec()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L359",
+      "source_location": "L391",
       "id": "grafana_screenshot_main_rendertimeoutsec",
-      "community": 4,
+      "community": 3,
       "norm_label": "rendertimeoutsec()"
     },
     {
       "label": "buildRenderURL()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L379",
+      "source_location": "L411",
       "id": "grafana_screenshot_main_buildrenderurl",
-      "community": 4,
+      "community": 3,
       "norm_label": "buildrenderurl()"
     },
     {
       "label": "applyKioskQuery()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L399",
+      "source_location": "L431",
       "id": "grafana_screenshot_main_applykioskquery",
       "community": 3,
       "norm_label": "applykioskquery()"
@@ -205,16 +241,16 @@
       "label": "captureDashboard()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L413",
+      "source_location": "L445",
       "id": "grafana_screenshot_main_capturedashboard",
-      "community": 4,
+      "community": 3,
       "norm_label": "capturedashboard()"
     },
     {
       "label": "truncate()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L447",
+      "source_location": "L479",
       "id": "grafana_screenshot_main_truncate",
       "community": 2,
       "norm_label": "truncate()"
@@ -223,25 +259,25 @@
       "label": "pruneOldScreenshots()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L454",
+      "source_location": "L486",
       "id": "grafana_screenshot_main_pruneoldscreenshots",
-      "community": 7,
+      "community": 3,
       "norm_label": "pruneoldscreenshots()"
     },
     {
       "label": "deliver()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L486",
+      "source_location": "L518",
       "id": "grafana_screenshot_main_deliver",
-      "community": 3,
+      "community": 1,
       "norm_label": "deliver()"
     },
     {
       "label": "larkAPIBase()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L500",
+      "source_location": "L532",
       "id": "grafana_screenshot_main_larkapibase",
       "community": 2,
       "norm_label": "larkapibase()"
@@ -250,16 +286,16 @@
       "label": "larkConfig()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L504",
+      "source_location": "L536",
       "id": "grafana_screenshot_main_larkconfig",
-      "community": 3,
+      "community": 1,
       "norm_label": "larkconfig()"
     },
     {
       "label": "sendLark()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L511",
+      "source_location": "L543",
       "id": "grafana_screenshot_main_sendlark",
       "community": 2,
       "norm_label": "sendlark()"
@@ -268,7 +304,7 @@
       "label": "larkCaption()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L526",
+      "source_location": "L558",
       "id": "grafana_screenshot_main_larkcaption",
       "community": 3,
       "norm_label": "larkcaption()"
@@ -277,7 +313,7 @@
       "label": "grafanaTimeRangeLabel()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L531",
+      "source_location": "L563",
       "id": "grafana_screenshot_main_grafanatimerangelabel",
       "community": 3,
       "norm_label": "grafanatimerangelabel()"
@@ -286,7 +322,7 @@
       "label": "schedulerLocation()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L553",
+      "source_location": "L585",
       "id": "grafana_screenshot_main_schedulerlocation",
       "community": 3,
       "norm_label": "schedulerlocation()"
@@ -295,7 +331,7 @@
       "label": "parseGrafanaTimeExpr()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L563",
+      "source_location": "L595",
       "id": "grafana_screenshot_main_parsegrafanatimeexpr",
       "community": 3,
       "norm_label": "parsegrafanatimeexpr()"
@@ -304,7 +340,7 @@
       "label": "larkHTTPClient()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L596",
+      "source_location": "L628",
       "id": "grafana_screenshot_main_larkhttpclient",
       "community": 2,
       "norm_label": "larkhttpclient()"
@@ -313,7 +349,7 @@
       "label": "larkTenantToken()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L604",
+      "source_location": "L636",
       "id": "grafana_screenshot_main_larktenanttoken",
       "community": 2,
       "norm_label": "larktenanttoken()"
@@ -322,7 +358,7 @@
       "label": "larkUploadImage()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L641",
+      "source_location": "L673",
       "id": "grafana_screenshot_main_larkuploadimage",
       "community": 2,
       "norm_label": "larkuploadimage()"
@@ -331,7 +367,7 @@
       "label": "larkSendText()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L695",
+      "source_location": "L727",
       "id": "grafana_screenshot_main_larksendtext",
       "community": 2,
       "norm_label": "larksendtext()"
@@ -340,7 +376,7 @@
       "label": "larkSendImage()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L703",
+      "source_location": "L735",
       "id": "grafana_screenshot_main_larksendimage",
       "community": 2,
       "norm_label": "larksendimage()"
@@ -349,7 +385,7 @@
       "label": "larkSendMessage()",
       "file_type": "code",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L711",
+      "source_location": "L743",
       "id": "grafana_screenshot_main_larksendmessage",
       "community": 2,
       "norm_label": "larksendmessage()"
@@ -450,7 +486,7 @@
       "source_file": "README.md",
       "source_location": "L5",
       "id": "grafana_screenshot_readme_\u76ee\u5f55\u7ed3\u6784",
-      "community": 0,
+      "community": 11,
       "norm_label": "\u76ee\u5f55\u7ed3\u6784"
     },
     {
@@ -459,7 +495,7 @@
       "source_file": "README.md",
       "source_location": "L7",
       "id": "grafana_screenshot_readme_codeblock_1",
-      "community": 0,
+      "community": 11,
       "norm_label": "code:block1 (grafana-screenshot/)"
     },
     {
@@ -486,7 +522,7 @@
       "source_file": "README.md",
       "source_location": "L33",
       "id": "grafana_screenshot_readme_http_\u89e6\u53d1_\u9ed8\u8ba4\u6a21\u5f0f",
-      "community": 0,
+      "community": 12,
       "norm_label": "http \u89e6\u53d1(\u9ed8\u8ba4\u6a21\u5f0f)"
     },
     {
@@ -495,7 +531,7 @@
       "source_file": "README.md",
       "source_location": "L43",
       "id": "grafana_screenshot_readme_codeblock_3",
-      "community": 0,
+      "community": 12,
       "norm_label": "code:bash (curl http://127.0.0.1:8111/health)"
     },
     {
@@ -504,17 +540,17 @@
       "source_file": "README.md",
       "source_location": "L52",
       "id": "grafana_screenshot_readme_\u5b9a\u65f6\u914d\u7f6e",
-      "community": 0,
+      "community": 13,
       "norm_label": "\u5b9a\u65f6\u914d\u7f6e"
     },
     {
-      "label": "code:env (SCHEDULE_HOUR=17)",
+      "label": "code:env (SCHEDULE_CRON=0 0 17 * * *      # \u6bcf\u5929 17:00:00)",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L66",
       "id": "grafana_screenshot_readme_codeblock_4",
-      "community": 0,
-      "norm_label": "code:env (schedule_hour=17)"
+      "community": 13,
+      "norm_label": "code:env (schedule_cron=0 0 17 * * *      # \u6bcf\u5929 17:00:00)"
     },
     {
       "label": "\u5e38\u7528\u547d\u4ee4",
@@ -522,7 +558,7 @@
       "source_file": "README.md",
       "source_location": "L72",
       "id": "grafana_screenshot_readme_\u5e38\u7528\u547d\u4ee4",
-      "community": 0,
+      "community": 4,
       "norm_label": "\u5e38\u7528\u547d\u4ee4"
     },
     {
@@ -531,7 +567,7 @@
       "source_file": "README.md",
       "source_location": "L74",
       "id": "grafana_screenshot_readme_codeblock_5",
-      "community": 0,
+      "community": 4,
       "norm_label": "code:bash (make trigger     # http \u89e6\u53d1\u622a\u56fe\u5e76\u53d1\u9001(\u5bb9\u5668\u987b\u5df2 up))"
     },
     {
@@ -540,7 +576,7 @@
       "source_file": "README.md",
       "source_location": "L84",
       "id": "grafana_screenshot_readme_codeblock_6",
-      "community": 0,
+      "community": 4,
       "norm_label": "code:bash (docker compose run --rm grafana-screenshot once --dry-run)"
     },
     {
@@ -594,7 +630,7 @@
       "source_file": "README.md",
       "source_location": "L141",
       "id": "grafana_screenshot_readme_ci_\u955c\u50cf_github_actions",
-      "community": 0,
+      "community": 7,
       "norm_label": "ci \u955c\u50cf(github actions)"
     },
     {
@@ -603,7 +639,7 @@
       "source_file": "README.md",
       "source_location": "L145",
       "id": "grafana_screenshot_readme_codeblock_8",
-      "community": 0,
+      "community": 7,
       "norm_label": "code:bash (docker pull ghcr.io/kevin197011/grafana-screenshots:latest)"
     },
     {
@@ -623,9 +659,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_main",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_main"
     },
     {
       "relation": "contains",
@@ -633,9 +669,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_runserver",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_runserver"
     },
     {
       "relation": "contains",
@@ -643,9 +679,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L90",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_handletrigger",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_handletrigger"
     },
     {
       "relation": "contains",
@@ -653,9 +689,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L127",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_runoncefromflags",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_runoncefromflags"
     },
     {
       "relation": "contains",
@@ -663,9 +699,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L133",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_loadenv",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_loadenv"
     },
     {
       "relation": "contains",
@@ -673,9 +709,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L144",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_restoregrafanaurlfromfile",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_restoregrafanaurlfromfile"
     },
     {
       "relation": "contains",
@@ -683,9 +719,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L170",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_unquoteenvvalue",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_unquoteenvvalue"
     },
     {
       "relation": "contains",
@@ -693,8 +729,38 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L190",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_runscheduler",
+      "target": "grafana_screenshot_main_runscheduler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "cmd/grafana-screenshot/main.go",
+      "source_location": "L244",
+      "weight": 1.0,
+      "source": "cmd_grafana_screenshot_main_go",
+      "target": "grafana_screenshot_main_schedulespec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "cmd/grafana-screenshot/main.go",
+      "source_location": "L255",
+      "weight": 1.0,
+      "source": "cmd_grafana_screenshot_main_go",
+      "target": "grafana_screenshot_main_stdlogger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "cmd/grafana-screenshot/main.go",
+      "source_location": "L257",
+      "weight": 1.0,
+      "source": "cmd_grafana_screenshot_main_go",
+      "target": "grafana_screenshot_cronstdliblogger",
       "confidence_score": 1.0
     },
     {
@@ -703,9 +769,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L231",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_runonce",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_runonce"
     },
     {
       "relation": "contains",
@@ -713,9 +779,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L277",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_fatal",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_fatal"
     },
     {
       "relation": "contains",
@@ -723,9 +789,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L282",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_envor",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envor"
     },
     {
       "relation": "contains",
@@ -733,9 +799,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L289",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_envbool",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envbool"
     },
     {
       "relation": "contains",
@@ -743,9 +809,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L297",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_envint",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envint"
     },
     {
       "relation": "contains",
@@ -753,9 +819,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L309",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_envraw",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envraw"
     },
     {
       "relation": "contains",
@@ -763,9 +829,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L314",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_envintalias",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envintalias"
     },
     {
       "relation": "contains",
@@ -773,9 +839,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L333",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_renderheight",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_renderheight"
     },
     {
       "relation": "contains",
@@ -783,9 +849,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L349",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_renderwidth",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_renderwidth"
     },
     {
       "relation": "contains",
@@ -793,9 +859,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L359",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_rendertimeoutsec",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_rendertimeoutsec"
     },
     {
       "relation": "contains",
@@ -803,9 +869,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L379",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_buildrenderurl",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_buildrenderurl"
     },
     {
       "relation": "contains",
@@ -813,9 +879,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L399",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_applykioskquery",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_applykioskquery"
     },
     {
       "relation": "contains",
@@ -823,9 +889,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L413",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_capturedashboard",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_capturedashboard"
     },
     {
       "relation": "contains",
@@ -833,9 +899,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L447",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_truncate",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_truncate"
     },
     {
       "relation": "contains",
@@ -843,9 +909,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L454",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_pruneoldscreenshots",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_pruneoldscreenshots"
     },
     {
       "relation": "contains",
@@ -853,9 +919,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L486",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_deliver",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_deliver"
     },
     {
       "relation": "contains",
@@ -863,9 +929,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L500",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_larkapibase",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larkapibase"
     },
     {
       "relation": "contains",
@@ -873,9 +939,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L504",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_larkconfig",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larkconfig"
     },
     {
       "relation": "contains",
@@ -883,9 +949,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L511",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_sendlark",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_sendlark"
     },
     {
       "relation": "contains",
@@ -893,9 +959,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L526",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_larkcaption",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larkcaption"
     },
     {
       "relation": "contains",
@@ -903,9 +969,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L531",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_grafanatimerangelabel",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_grafanatimerangelabel"
     },
     {
       "relation": "contains",
@@ -913,9 +979,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L553",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_schedulerlocation",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_schedulerlocation"
     },
     {
       "relation": "contains",
@@ -923,9 +989,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L563",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_parsegrafanatimeexpr",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_parsegrafanatimeexpr"
     },
     {
       "relation": "contains",
@@ -933,9 +999,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L596",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_larkhttpclient",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larkhttpclient"
     },
     {
       "relation": "contains",
@@ -943,9 +1009,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L604",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_larktenanttoken",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larktenanttoken"
     },
     {
       "relation": "contains",
@@ -953,9 +1019,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L641",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_larkuploadimage",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larkuploadimage"
     },
     {
       "relation": "contains",
@@ -963,9 +1029,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L695",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_larksendtext",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larksendtext"
     },
     {
       "relation": "contains",
@@ -973,9 +1039,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L703",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_larksendimage",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larksendimage"
     },
     {
       "relation": "contains",
@@ -983,9 +1049,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L711",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "cmd_grafana_screenshot_main_go",
-      "target": "grafana_screenshot_main_larksendmessage",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larksendmessage"
     },
     {
       "relation": "calls",
@@ -994,9 +1060,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_main",
-      "target": "grafana_screenshot_main_runscheduler",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_runscheduler"
     },
     {
       "relation": "calls",
@@ -1005,9 +1071,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_main",
-      "target": "grafana_screenshot_main_runserver",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_runserver"
     },
     {
       "relation": "calls",
@@ -1016,9 +1082,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_main",
-      "target": "grafana_screenshot_main_runoncefromflags",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_runoncefromflags"
     },
     {
       "relation": "calls",
@@ -1027,9 +1093,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_main",
-      "target": "grafana_screenshot_main_fatal",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_fatal"
     },
     {
       "relation": "calls",
@@ -1038,9 +1104,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_runserver",
-      "target": "grafana_screenshot_main_loadenv",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_loadenv"
     },
     {
       "relation": "calls",
@@ -1049,9 +1115,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_runserver",
-      "target": "grafana_screenshot_main_envor",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envor"
     },
     {
       "relation": "calls",
@@ -1060,9 +1126,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_runserver",
-      "target": "grafana_screenshot_main_envbool",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envbool"
     },
     {
       "relation": "calls",
@@ -1071,9 +1137,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_runserver",
-      "target": "grafana_screenshot_main_runscheduler",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_runscheduler"
     },
     {
       "relation": "calls",
@@ -1082,8 +1148,19 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_runserver",
-      "target": "grafana_screenshot_main_handletrigger",
+      "target": "grafana_screenshot_main_handletrigger"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "cmd/grafana-screenshot/main.go",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "grafana_screenshot_main_runserver",
+      "target": "grafana_screenshot_cronstdliblogger_printf",
       "confidence_score": 1.0
     },
     {
@@ -1093,9 +1170,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_runserver",
-      "target": "grafana_screenshot_main_fatal",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_fatal"
     },
     {
       "relation": "calls",
@@ -1104,9 +1181,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L119",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_handletrigger",
-      "target": "grafana_screenshot_main_runonce",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_runonce"
     },
     {
       "relation": "calls",
@@ -1115,9 +1192,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L130",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_runoncefromflags",
-      "target": "grafana_screenshot_main_runonce",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_runonce"
     },
     {
       "relation": "calls",
@@ -1126,9 +1203,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L138",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_loadenv",
-      "target": "grafana_screenshot_main_restoregrafanaurlfromfile",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_restoregrafanaurlfromfile"
     },
     {
       "relation": "calls",
@@ -1137,9 +1214,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L191",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_runscheduler",
-      "target": "grafana_screenshot_main_loadenv",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_loadenv"
     },
     {
       "relation": "calls",
@@ -1148,9 +1225,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L232",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_runonce",
-      "target": "grafana_screenshot_main_loadenv",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_loadenv"
     },
     {
       "relation": "calls",
@@ -1159,8 +1236,19 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L162",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_restoregrafanaurlfromfile",
-      "target": "grafana_screenshot_main_unquoteenvvalue",
+      "target": "grafana_screenshot_main_unquoteenvvalue"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "cmd/grafana-screenshot/main.go",
+      "source_location": "L198",
+      "weight": 1.0,
+      "source": "grafana_screenshot_main_runscheduler",
+      "target": "grafana_screenshot_main_schedulerlocation",
       "confidence_score": 1.0
     },
     {
@@ -1168,10 +1256,10 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L202",
+      "source_location": "L199",
       "weight": 1.0,
       "source": "grafana_screenshot_main_runscheduler",
-      "target": "grafana_screenshot_main_envint",
+      "target": "grafana_screenshot_main_schedulespec",
       "confidence_score": 1.0
     },
     {
@@ -1179,10 +1267,21 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "cmd/grafana-screenshot/main.go",
-      "source_location": "L208",
+      "source_location": "L201",
       "weight": 1.0,
       "source": "grafana_screenshot_main_runscheduler",
-      "target": "grafana_screenshot_main_envbool",
+      "target": "grafana_screenshot_main_stdlogger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "cmd/grafana-screenshot/main.go",
+      "source_location": "L213",
+      "weight": 1.0,
+      "source": "grafana_screenshot_main_runscheduler",
+      "target": "grafana_screenshot_cronstdliblogger_printf",
       "confidence_score": 1.0
     },
     {
@@ -1192,8 +1291,84 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L210",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_runscheduler",
-      "target": "grafana_screenshot_main_runonce",
+      "target": "grafana_screenshot_main_runonce"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "cmd/grafana-screenshot/main.go",
+      "source_location": "L219",
+      "weight": 1.0,
+      "source": "grafana_screenshot_main_runscheduler",
+      "target": "grafana_screenshot_main_fatal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "cmd/grafana-screenshot/main.go",
+      "source_location": "L208",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "grafana_screenshot_main_runscheduler",
+      "target": "grafana_screenshot_main_envbool"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "cmd/grafana-screenshot/main.go",
+      "source_location": "L202",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "grafana_screenshot_main_runscheduler",
+      "target": "grafana_screenshot_main_envint"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "cmd/grafana-screenshot/main.go",
+      "source_location": "L245",
+      "weight": 1.0,
+      "source": "grafana_screenshot_main_schedulespec",
+      "target": "grafana_screenshot_main_envraw",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "cmd/grafana-screenshot/main.go",
+      "source_location": "L248",
+      "weight": 1.0,
+      "source": "grafana_screenshot_main_schedulespec",
+      "target": "grafana_screenshot_main_envint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "cmd/grafana-screenshot/main.go",
+      "source_location": "L259",
+      "weight": 1.0,
+      "source": "grafana_screenshot_cronstdliblogger",
+      "target": "grafana_screenshot_cronstdliblogger_printf",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "cmd/grafana-screenshot/main.go",
+      "source_location": "L286",
+      "weight": 1.0,
+      "source": "grafana_screenshot_main_runonce",
+      "target": "grafana_screenshot_cronstdliblogger_printf",
       "confidence_score": 1.0
     },
     {
@@ -1203,9 +1378,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L244",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_runonce",
-      "target": "grafana_screenshot_main_envor",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envor"
     },
     {
       "relation": "calls",
@@ -1214,9 +1389,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L254",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_runonce",
-      "target": "grafana_screenshot_main_rendertimeoutsec",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_rendertimeoutsec"
     },
     {
       "relation": "calls",
@@ -1225,9 +1400,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L255",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_runonce",
-      "target": "grafana_screenshot_main_capturedashboard",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_capturedashboard"
     },
     {
       "relation": "calls",
@@ -1236,9 +1411,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L259",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_runonce",
-      "target": "grafana_screenshot_main_pruneoldscreenshots",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_pruneoldscreenshots"
     },
     {
       "relation": "calls",
@@ -1247,9 +1422,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L271",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_runonce",
-      "target": "grafana_screenshot_main_deliver",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_deliver"
     },
     {
       "relation": "calls",
@@ -1258,9 +1433,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L403",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_applykioskquery",
-      "target": "grafana_screenshot_main_envor",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envor"
     },
     {
       "relation": "calls",
@@ -1269,9 +1444,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L501",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_larkapibase",
-      "target": "grafana_screenshot_main_envor",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envor"
     },
     {
       "relation": "calls",
@@ -1280,9 +1455,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L505",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_larkconfig",
-      "target": "grafana_screenshot_main_envor",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envor"
     },
     {
       "relation": "calls",
@@ -1291,9 +1466,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L527",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_larkcaption",
-      "target": "grafana_screenshot_main_envor",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envor"
     },
     {
       "relation": "calls",
@@ -1302,9 +1477,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L334",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_renderheight",
-      "target": "grafana_screenshot_main_envbool",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envbool"
     },
     {
       "relation": "calls",
@@ -1313,9 +1488,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L368",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_rendertimeoutsec",
-      "target": "grafana_screenshot_main_envbool",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envbool"
     },
     {
       "relation": "calls",
@@ -1324,9 +1499,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L317",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_envintalias",
-      "target": "grafana_screenshot_main_envint",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envint"
     },
     {
       "relation": "calls",
@@ -1335,9 +1510,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L336",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_renderheight",
-      "target": "grafana_screenshot_main_envint",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envint"
     },
     {
       "relation": "calls",
@@ -1346,9 +1521,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L351",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_renderwidth",
-      "target": "grafana_screenshot_main_envint",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envint"
     },
     {
       "relation": "calls",
@@ -1357,9 +1532,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L361",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_rendertimeoutsec",
-      "target": "grafana_screenshot_main_envint",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envint"
     },
     {
       "relation": "calls",
@@ -1368,9 +1543,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L455",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_pruneoldscreenshots",
-      "target": "grafana_screenshot_main_envint",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envint"
     },
     {
       "relation": "calls",
@@ -1379,9 +1554,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L597",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_larkhttpclient",
-      "target": "grafana_screenshot_main_envint",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envint"
     },
     {
       "relation": "calls",
@@ -1390,9 +1565,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L335",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_renderheight",
-      "target": "grafana_screenshot_main_envraw",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envraw"
     },
     {
       "relation": "calls",
@@ -1401,9 +1576,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L350",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_renderwidth",
-      "target": "grafana_screenshot_main_envraw",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envraw"
     },
     {
       "relation": "calls",
@@ -1412,9 +1587,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L360",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_rendertimeoutsec",
-      "target": "grafana_screenshot_main_envraw",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envraw"
     },
     {
       "relation": "calls",
@@ -1423,9 +1598,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L555",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_schedulerlocation",
-      "target": "grafana_screenshot_main_envraw",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_envraw"
     },
     {
       "relation": "calls",
@@ -1434,9 +1609,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L391",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_buildrenderurl",
-      "target": "grafana_screenshot_main_renderheight",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_renderheight"
     },
     {
       "relation": "calls",
@@ -1445,9 +1620,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L390",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_buildrenderurl",
-      "target": "grafana_screenshot_main_renderwidth",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_renderwidth"
     },
     {
       "relation": "calls",
@@ -1456,9 +1631,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L392",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_buildrenderurl",
-      "target": "grafana_screenshot_main_rendertimeoutsec",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_rendertimeoutsec"
     },
     {
       "relation": "calls",
@@ -1467,9 +1642,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L420",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_capturedashboard",
-      "target": "grafana_screenshot_main_rendertimeoutsec",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_rendertimeoutsec"
     },
     {
       "relation": "calls",
@@ -1478,9 +1653,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L389",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_buildrenderurl",
-      "target": "grafana_screenshot_main_applykioskquery",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_applykioskquery"
     },
     {
       "relation": "calls",
@@ -1489,9 +1664,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L414",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_capturedashboard",
-      "target": "grafana_screenshot_main_buildrenderurl",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_buildrenderurl"
     },
     {
       "relation": "calls",
@@ -1500,9 +1675,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L439",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_capturedashboard",
-      "target": "grafana_screenshot_main_truncate",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_truncate"
     },
     {
       "relation": "calls",
@@ -1511,9 +1686,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L636",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_larktenanttoken",
-      "target": "grafana_screenshot_main_truncate",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_truncate"
     },
     {
       "relation": "calls",
@@ -1522,9 +1697,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L690",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_larkuploadimage",
-      "target": "grafana_screenshot_main_truncate",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_truncate"
     },
     {
       "relation": "calls",
@@ -1533,9 +1708,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L487",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_deliver",
-      "target": "grafana_screenshot_main_larkconfig",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larkconfig"
     },
     {
       "relation": "calls",
@@ -1544,9 +1719,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L491",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_deliver",
-      "target": "grafana_screenshot_main_sendlark",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_sendlark"
     },
     {
       "relation": "calls",
@@ -1555,9 +1730,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L605",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_larktenanttoken",
-      "target": "grafana_screenshot_main_larkapibase",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larkapibase"
     },
     {
       "relation": "calls",
@@ -1566,9 +1741,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L660",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_larkuploadimage",
-      "target": "grafana_screenshot_main_larkapibase",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larkapibase"
     },
     {
       "relation": "calls",
@@ -1577,9 +1752,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L721",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_larksendmessage",
-      "target": "grafana_screenshot_main_larkapibase",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larkapibase"
     },
     {
       "relation": "calls",
@@ -1588,9 +1763,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L512",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_sendlark",
-      "target": "grafana_screenshot_main_larktenanttoken",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larktenanttoken"
     },
     {
       "relation": "calls",
@@ -1599,9 +1774,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L516",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_sendlark",
-      "target": "grafana_screenshot_main_larksendtext",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larksendtext"
     },
     {
       "relation": "calls",
@@ -1610,9 +1785,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L516",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_sendlark",
-      "target": "grafana_screenshot_main_larkcaption",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larkcaption"
     },
     {
       "relation": "calls",
@@ -1621,9 +1796,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L519",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_sendlark",
-      "target": "grafana_screenshot_main_larkuploadimage",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larkuploadimage"
     },
     {
       "relation": "calls",
@@ -1632,9 +1807,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L523",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_sendlark",
-      "target": "grafana_screenshot_main_larksendimage",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larksendimage"
     },
     {
       "relation": "calls",
@@ -1643,9 +1818,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L528",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_larkcaption",
-      "target": "grafana_screenshot_main_grafanatimerangelabel",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_grafanatimerangelabel"
     },
     {
       "relation": "calls",
@@ -1654,9 +1829,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L532",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_grafanatimerangelabel",
-      "target": "grafana_screenshot_main_schedulerlocation",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_schedulerlocation"
     },
     {
       "relation": "calls",
@@ -1665,9 +1840,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L539",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_grafanatimerangelabel",
-      "target": "grafana_screenshot_main_parsegrafanatimeexpr",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_parsegrafanatimeexpr"
     },
     {
       "relation": "calls",
@@ -1676,9 +1851,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L615",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_larktenanttoken",
-      "target": "grafana_screenshot_main_larkhttpclient",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larkhttpclient"
     },
     {
       "relation": "calls",
@@ -1687,9 +1862,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L667",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_larkuploadimage",
-      "target": "grafana_screenshot_main_larkhttpclient",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larkhttpclient"
     },
     {
       "relation": "calls",
@@ -1698,9 +1873,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L729",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_larksendmessage",
-      "target": "grafana_screenshot_main_larkhttpclient",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larkhttpclient"
     },
     {
       "relation": "calls",
@@ -1709,9 +1884,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L700",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_larksendtext",
-      "target": "grafana_screenshot_main_larksendmessage",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larksendmessage"
     },
     {
       "relation": "calls",
@@ -1720,9 +1895,9 @@
       "source_file": "cmd/grafana-screenshot/main.go",
       "source_location": "L708",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_main_larksendimage",
-      "target": "grafana_screenshot_main_larksendmessage",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_main_larksendmessage"
     },
     {
       "relation": "contains",
@@ -1730,9 +1905,9 @@
       "source_file": ".vscode/settings.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "vscode_settings_json",
-      "target": "vscode_settings_go_toolsmanagement_checkforupdates",
-      "confidence_score": 1.0
+      "target": "vscode_settings_go_toolsmanagement_checkforupdates"
     },
     {
       "relation": "contains",
@@ -1740,9 +1915,9 @@
       "source_file": ".vscode/settings.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "vscode_settings_json",
-      "target": "vscode_settings_gopls",
-      "confidence_score": 1.0
+      "target": "vscode_settings_gopls"
     },
     {
       "relation": "contains",
@@ -1750,9 +1925,9 @@
       "source_file": ".vscode/settings.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "vscode_settings_gopls",
-      "target": "vscode_settings_gopls_build_directoryfilters",
-      "confidence_score": 1.0
+      "target": "vscode_settings_gopls_build_directoryfilters"
     },
     {
       "relation": "contains",
@@ -1760,9 +1935,9 @@
       "source_file": ".vscode/launch.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "vscode_launch_json",
-      "target": "vscode_launch_version",
-      "confidence_score": 1.0
+      "target": "vscode_launch_version"
     },
     {
       "relation": "contains",
@@ -1770,9 +1945,9 @@
       "source_file": ".vscode/launch.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "vscode_launch_json",
-      "target": "vscode_launch_configurations",
-      "confidence_score": 1.0
+      "target": "vscode_launch_configurations"
     },
     {
       "relation": "contains",
@@ -1780,9 +1955,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "grafana_screenshot_readme_grafana_screenshot",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_grafana_screenshot"
     },
     {
       "relation": "contains",
@@ -1790,9 +1965,9 @@
       "source_file": "README.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_grafana_screenshot",
-      "target": "grafana_screenshot_readme_\u76ee\u5f55\u7ed3\u6784",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_\u76ee\u5f55\u7ed3\u6784"
     },
     {
       "relation": "contains",
@@ -1800,9 +1975,9 @@
       "source_file": "README.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_grafana_screenshot",
-      "target": "grafana_screenshot_readme_\u5feb\u901f\u5f00\u59cb",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_\u5feb\u901f\u5f00\u59cb"
     },
     {
       "relation": "contains",
@@ -1810,9 +1985,9 @@
       "source_file": "README.md",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_grafana_screenshot",
-      "target": "grafana_screenshot_readme_http_\u89e6\u53d1_\u9ed8\u8ba4\u6a21\u5f0f",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_http_\u89e6\u53d1_\u9ed8\u8ba4\u6a21\u5f0f"
     },
     {
       "relation": "contains",
@@ -1820,9 +1995,9 @@
       "source_file": "README.md",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_grafana_screenshot",
-      "target": "grafana_screenshot_readme_\u5b9a\u65f6\u914d\u7f6e",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_\u5b9a\u65f6\u914d\u7f6e"
     },
     {
       "relation": "contains",
@@ -1830,9 +2005,9 @@
       "source_file": "README.md",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_grafana_screenshot",
-      "target": "grafana_screenshot_readme_\u5e38\u7528\u547d\u4ee4",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_\u5e38\u7528\u547d\u4ee4"
     },
     {
       "relation": "contains",
@@ -1840,9 +2015,9 @@
       "source_file": "README.md",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_grafana_screenshot",
-      "target": "grafana_screenshot_readme_\u914d\u7f6e\u8bf4\u660e",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_\u914d\u7f6e\u8bf4\u660e"
     },
     {
       "relation": "contains",
@@ -1850,9 +2025,9 @@
       "source_file": "README.md",
       "source_location": "L141",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_grafana_screenshot",
-      "target": "grafana_screenshot_readme_ci_\u955c\u50cf_github_actions",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_ci_\u955c\u50cf_github_actions"
     },
     {
       "relation": "contains",
@@ -1860,9 +2035,9 @@
       "source_file": "README.md",
       "source_location": "L151",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_grafana_screenshot",
-      "target": "grafana_screenshot_readme_\u8981\u6c42",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_\u8981\u6c42"
     },
     {
       "relation": "contains",
@@ -1870,9 +2045,9 @@
       "source_file": "README.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_\u76ee\u5f55\u7ed3\u6784",
-      "target": "grafana_screenshot_readme_codeblock_1",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_codeblock_1"
     },
     {
       "relation": "contains",
@@ -1880,9 +2055,9 @@
       "source_file": "README.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_\u5feb\u901f\u5f00\u59cb",
-      "target": "grafana_screenshot_readme_codeblock_2",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_codeblock_2"
     },
     {
       "relation": "contains",
@@ -1890,9 +2065,9 @@
       "source_file": "README.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_http_\u89e6\u53d1_\u9ed8\u8ba4\u6a21\u5f0f",
-      "target": "grafana_screenshot_readme_codeblock_3",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_codeblock_3"
     },
     {
       "relation": "contains",
@@ -1900,9 +2075,9 @@
       "source_file": "README.md",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_\u5b9a\u65f6\u914d\u7f6e",
-      "target": "grafana_screenshot_readme_codeblock_4",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_codeblock_4"
     },
     {
       "relation": "contains",
@@ -1910,9 +2085,9 @@
       "source_file": "README.md",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_\u5e38\u7528\u547d\u4ee4",
-      "target": "grafana_screenshot_readme_codeblock_5",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_codeblock_5"
     },
     {
       "relation": "contains",
@@ -1920,9 +2095,9 @@
       "source_file": "README.md",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_\u5e38\u7528\u547d\u4ee4",
-      "target": "grafana_screenshot_readme_codeblock_6",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_codeblock_6"
     },
     {
       "relation": "contains",
@@ -1930,9 +2105,9 @@
       "source_file": "README.md",
       "source_location": "L97",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_\u914d\u7f6e\u8bf4\u660e",
-      "target": "grafana_screenshot_readme_lark_\u7fa4\u63a8\u9001_\u552f\u4e00\u901a\u77e5\u6e20\u9053",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_lark_\u7fa4\u63a8\u9001_\u552f\u4e00\u901a\u77e5\u6e20\u9053"
     },
     {
       "relation": "contains",
@@ -1940,9 +2115,9 @@
       "source_file": "README.md",
       "source_location": "L113",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_\u914d\u7f6e\u8bf4\u660e",
-      "target": "grafana_screenshot_readme_\u670d\u52a1\u5668\u4e0a_\u5361\u4f4f_\u7684\u5e38\u89c1\u539f\u56e0",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_\u670d\u52a1\u5668\u4e0a_\u5361\u4f4f_\u7684\u5e38\u89c1\u539f\u56e0"
     },
     {
       "relation": "contains",
@@ -1950,9 +2125,9 @@
       "source_file": "README.md",
       "source_location": "L127",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_\u914d\u7f6e\u8bf4\u660e",
-      "target": "grafana_screenshot_readme_rocky_linux_9_\u4e0a_docker_compose_build_\u5361\u4f4f",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_rocky_linux_9_\u4e0a_docker_compose_build_\u5361\u4f4f"
     },
     {
       "relation": "contains",
@@ -1960,9 +2135,9 @@
       "source_file": "README.md",
       "source_location": "L133",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_rocky_linux_9_\u4e0a_docker_compose_build_\u5361\u4f4f",
-      "target": "grafana_screenshot_readme_codeblock_7",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_codeblock_7"
     },
     {
       "relation": "contains",
@@ -1970,11 +2145,11 @@
       "source_file": "README.md",
       "source_location": "L145",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "grafana_screenshot_readme_ci_\u955c\u50cf_github_actions",
-      "target": "grafana_screenshot_readme_codeblock_8",
-      "confidence_score": 1.0
+      "target": "grafana_screenshot_readme_codeblock_8"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "181b1ae821608d8b476424381653ec9e1f8157b8"
+  "built_at_commit": "65d3584c90d4709a53211fa0f208b46c52f587a1"
 }

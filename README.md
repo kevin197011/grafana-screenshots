@@ -51,22 +51,22 @@ curl --max-time 600 http://127.0.0.1:8111/trigger
 
 ## 定时配置
 
-在 `grafana.env` 中设置（按 `TZ` 时区，默认 `Asia/Hong_Kong`）：
+底层使用 [`robfig/cron/v3`](https://pkg.go.dev/github.com/robfig/cron/v3)（支持秒级），并启用 `SkipIfStillRunning` + `Recover`，避免任务重叠和 panic 中断 scheduler。在 `grafana.env` 中设置（按 `TZ` 时区，默认 `Asia/Hong_Kong`）：
 
 | 变量 | 说明 | 默认 |
 |------|------|------|
-| `SCHEDULE_HOUR` | 小时 0–23 | `17` |
-| `SCHEDULE_MINUTE` | 分钟 0–59 | `0` |
-| `SCHEDULE_SECOND` | 秒 0–59 | `0` |
+| `ENABLE_SCHEDULER` | server 模式下启用定时器 | `true` |
+| `SCHEDULE_CRON` | 6 字段 cron 表达式：`秒 分 时 日 月 周` | `0 0 17 * * *` |
+| `SCHEDULE_HOUR` / `MINUTE` / `SECOND` | 不设 `SCHEDULE_CRON` 时使用 | `17 / 0 / 0` |
 | `TZ` | 时区 | `Asia/Hong_Kong` |
 | `RUN_ON_START` | 启动时立即执行一次 | `false` |
 
-示例：每天 **17:30:15** 执行：
+示例：
 
 ```env
-SCHEDULE_HOUR=17
-SCHEDULE_MINUTE=30
-SCHEDULE_SECOND=15
+SCHEDULE_CRON=0 0 17 * * *      # 每天 17:00:00
+SCHEDULE_CRON=0 30 9 * * 1-5    # 工作日 09:30
+SCHEDULE_CRON=0 0 */2 * * *     # 每两小时整点
 ```
 
 ## 常用命令
